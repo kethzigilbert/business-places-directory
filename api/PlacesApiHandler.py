@@ -8,8 +8,8 @@ class PlacesApiHandler(Resource):
     placeData= responsePlace.json()
     return {
     
-      'displayed_what':placeData.get("displayed_what"),
-      'displayed_where':placeData.get("displayed_where"),
+      'name':placeData.get("displayed_what"),
+      'address':placeData.get("displayed_where"),
       'opening_hours':placeData.get("opening_hours")
 
       }
