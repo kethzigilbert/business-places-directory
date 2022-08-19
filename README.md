@@ -29,6 +29,9 @@ The commands below install the application and its dependencies:
     $ . venv/bin/activate
     (venv) pip install -r requirements.txt
 
+ 
 ### Running
 
 (venv) $ python app.py
+
+Open [http://127.0.0.1:5000/places/GXvPAor1ifNfpF0U5PTG0w] to view it in your browser.
