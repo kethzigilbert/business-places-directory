@@ -1,11 +1,11 @@
 ## Introduction
 
-This Project contains REST endpoint API containing Places details.  This Enpoint internally prepares data from the API - https://storage.googleapis.com/coding-session-rest-api/{place_id} for a given place id.
+This Project contains REST API Endpoint containing Places details.  This endpoint calls the given API - https://storage.googleapis.com/coding-session-rest-api/{place_id} and prepares data for the Frontend.
 
 Two valid place ids are: GXvPAor1ifNfpF0U5PTG0w and ohGSnJtMIC5nPfYRi_HTAg
 
 This project is deployed currently using heroku and is live at
-https://business-places-directory.herokuapp.com
+https://business-places-directory.herokuapp.com/places/GXvPAor1ifNfpF0U5PTG0w
 
 ## API endpoints 
 * https://business-places-directory.herokuapp.com/places/GXvPAor1ifNfpF0U5PTG0w
