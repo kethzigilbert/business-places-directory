@@ -23,11 +23,11 @@ To install and run this application you need:
 ### Installation
 The commands below install the application and its dependencies:
 
-$ git clone https://github.com/kethzigilbert/business-places-directory.git
-$ cd business-places-directory
-$ virtualenv venv
-$ . venv/bin/activate
-(venv) pip install -r requirements.txt
+    $ git clone https://github.com/kethzigilbert/business-places-directory.git
+    $ cd business-places-directory
+    $ virtualenv venv
+    $ . venv/bin/activate
+    (venv) pip install -r requirements.txt
 
 ### Running
 
