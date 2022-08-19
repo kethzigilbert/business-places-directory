@@ -32,6 +32,6 @@ The commands below install the application and its dependencies:
  
 ### Running
 
-(venv) $ python app.py
+(venv) $ flask run
 
 Open [http://127.0.0.1:5000/places/GXvPAor1ifNfpF0U5PTG0w] to view it in your browser.
