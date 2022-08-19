@@ -17,7 +17,7 @@ https://business-places-directory.herokuapp.com/places/GXvPAor1ifNfpF0U5PTG0w
 To install and run this application you need:
 
 * Python 2.7 or 3.3+
-* virtualenv 
+* venv for Python 3 or virtualenv for Python 2.
 * git 
 
 ### Installation
@@ -25,8 +25,8 @@ The commands below install the application and its dependencies:
 
     $ git clone https://github.com/kethzigilbert/business-places-directory.git
     $ cd business-places-directory
-    $ virtualenv venv
-    $ . venv/bin/activate
+    $ python3 -m venv venv
+    $ source venv/bin/activate
     (venv) pip install -r requirements.txt
 
  
